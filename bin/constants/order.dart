@@ -1,4 +1,6 @@
 class Order {
   static const String name = 'Mohamed';
-  static const String payment = 'payment';
+  static const double price = 100;
 }
+
+enum GetType { electronics, food, clothes }
